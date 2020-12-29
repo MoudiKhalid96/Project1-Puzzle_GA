@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="../CSS/puzzle-style.css">
-        <link rel="icon" href="../image/puzzle-icon.png" type="image/icon type">
+        <link rel="icon" href="../image/puzzle-icon.png">
 
         <title>Puzzle</title>
     </head>
@@ -20,26 +20,27 @@
             </ul> 
         </div>
 
+        <!-- This part is hidden until the user pick a picture -->
         <div id="puzzle">
 
-            <h3 id="change">Click here to pick another picture</h3>
+            <h3 id="changePicture">Click here to pick another picture</h3>
 
             <main>
                 <table>
                     <tr>
-                        <td class='square1' id='row1column1' onClick='moveSquare(1 , 1)'></td>
-                        <td class='square2' id='row1column2' onClick='moveSquare(1 , 2)'></td>
-                        <td class='square3' id='row1column3' onClick='moveSquare(1 , 3)'></td>
+                        <td class='square1' id='row1column1' onclick='moveSquare(1 , 1)'></td>
+                        <td class='square2' id='row1column2' onclick='moveSquare(1 , 2)'></td>
+                        <td class='square3' id='row1column3' onclick='moveSquare(1 , 3)'></td>
                     </tr>
                     <tr>
-                        <td class='square4' id='row2column1' onClick='moveSquare(2 , 1)'></td>
-                        <td class='square5' id='row2column2' onClick='moveSquare(2 , 2)'></td>
-                        <td class='square6' id='row2column3' onClick='moveSquare(2 , 3)'></td>
+                        <td class='square4' id='row2column1' onclick='moveSquare(2 , 1)'></td>
+                        <td class='square5' id='row2column2' onclick='moveSquare(2 , 2)'></td>
+                        <td class='square6' id='row2column3' onclick='moveSquare(2 , 3)'></td>
                     </tr>
                     <tr>
-                        <td class='square7' id='row3column1' onClick='moveSquare(3 , 1)'></td>
-                        <td class='square8' id='row3column2' onClick='moveSquare(3 , 2)'></td>
-                        <td class='square9' id='row3column3' onClick='moveSquare(3 , 3)'></td>
+                        <td class='square7' id='row3column1' onclick='moveSquare(3 , 1)'></td>
+                        <td class='square8' id='row3column2' onclick='moveSquare(3 , 2)'></td>
+                        <td class='square9' id='row3column3' onclick='moveSquare(3 , 3)'></td>
                     </tr>
                 </table>
 
