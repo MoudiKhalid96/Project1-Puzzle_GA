@@ -3,7 +3,7 @@ $(document).ready(
     $('#pic1').click(function(){
         $('#pictures').hide('slow');
         $('#puzzle').show('slow');
-        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(../image/balloon.png)', 'width': '10em', 'height': '10em'});
+        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(image/balloon.png)', 'width': '10em', 'height': '10em'});
         // shuffle();
     }),
 
@@ -11,7 +11,7 @@ $(document).ready(
     $('#pic2').click(function(){
         $('#pictures').hide('slow');
         $('#puzzle').show('slow');
-        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(../image/flower.png)', 'width': '10em', 'height': '10em'});
+        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(image/flower.png)', 'width': '10em', 'height': '10em'});
         // shuffle();
     }),
 
@@ -19,7 +19,7 @@ $(document).ready(
     $('#pic3').click(function(){
         $('#pictures').hide('slow');
         $('#puzzle').show('slow');
-        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(../image/clock.jpg)', 'width': '10em', 'height': '10em'});
+        $('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, square9').css({'background-image': 'url(image/clock.jpg)', 'width': '10em', 'height': '10em'});
         // shuffle();
     }),
 
