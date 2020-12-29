@@ -3,7 +3,6 @@
 This project is required to complete the JDI course from Misk Academy and General Assembly by work individually to get practice of some covered materials taken so far for now. It is about a game called **'Puzzle'** is to be sorted after picking the wanted picture and transfer it to a puzzle.
 
 
-
 ## TECHNOLOGIES
 * HTML 5
 * CSS 3
@@ -11,19 +10,25 @@ This project is required to complete the JDI course from Misk Academy and Genera
 * JQuery 3.5.1
 
 
-## FEATURES
-* Pick the puzzle you want to play with
-* Shuffle the puzzle many times
+## GAME
+To play this game, the user has to choose one of the pictures to start to play the **Puzzle** game with size 3*3. To play, you have to press the **shuffle** button to shuffle and start playing and arrange the puzzle.
 
 
-## WIREFRAME
+## WIREFRAME AND USER STORY
 ![wireframe](Puzzle-wireframe.png) 
+* As a user, I want to change the picture of puzzle so that I can play again.
+* As a user, I want to reshuffle the puzzle so that I can try again.
+
+
+## FEATURES
+* Pick the puzzle you want to play with.
+* Shuffle the puzzle many times.
 
 
 ## INSTALATION INSTRCUTIONS
 1. Fork 
 2. Clone 
-    * ```$ git clone URL ```
+    * ```$ git clone URL```
 3. Add the changes 
     * ```$ git add .```
 4. Save changes 
@@ -35,24 +40,10 @@ This project is required to complete the JDI course from Misk Academy and Genera
     * create a pull request in Github site
 
 
-## STRUCTURE
-```
-    |--CSS
-    |   `--puzzle-style.css
-    |
-    |--HTML
-    |   `--puzzle.html
-    |
-    |--image
-    |   |--ballon.png
-    |   |--clock.jpg
-    |   |--flower.png
-    |   `--puzzle-icon.png
-    |
-    |--JS
-    |   `--main.js
-    |
-    |--Puzzle-wireframe.png
-    |
-    `--README.md
-```
+## fAVORITE FUNCTION
+There are 3 functions, and I find the **moveSquare** is the favorite, it starts with taking an argument when clicking on the square. In case you clicked on the white square nothing will happen, you have to click on the one with the image. It'll try to detect if the white square is up, down, left, or right by comparing the rows and columns. Once it knows it was near the clicked square (on right, left, up, down of the clicked square), it'll move, otherwise, nothing will happen.
+
+
+
+
+
